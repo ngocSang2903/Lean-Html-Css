@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 980px;
+    margin: 0 auto;
+    font-family: tahoma;
+}
+.logo{
+    text-align: center;
+    margin: 20px 0;
+}
+.listmenu{
+    height: 38px;
+    background-color: #272f54;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    line-height: 38px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px;
+    margin: 0 23px;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+.search{
+    float: right;
+    line-height: 38px;
+    margin: 0 40px;
+}
+.text{
+    border: 2px solid #cccccc;
+    margin-right: 10px;
+    height: 20px;
+}
+.botton{
+    width: 95px;
+    height: 25px;
+    background-color: #db2704;
+    color: azure;
+    border: 2px solid #cccccc;
+}
+.listnew h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #272f54;
+    margin: 20px 0 ;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+.col{
+    border: 2px solid #c2c2c2;
+    padding: 20px 30px;
+    text-align: center;
+}
+.col h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.col h3 a{
+    color: #2a2828;
+    text-decoration: none;
+}
+.col img{
+    margin-bottom: 25px;
+}
+.col h4{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.col h2{
+    font-size: 24px;
+    font-weight: bold;  
+}
+.col h2 a{
+    color: #c1080f;
+    text-decoration: none;
+}
+footer{
+    height: 50px;
+    background-color: #272f54;
+    margin-top: 10px;
+}

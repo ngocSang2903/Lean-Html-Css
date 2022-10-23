@@ -1,0 +1,13 @@
+.d1{
+    border: 1px solid black;
+    width: 20%;
+}
+.d1 ul li{
+    list-style: none;
+}
+.d1 a{
+    text-decoration: none;
+    border: 1px solid black;
+    display: block;
+    margin: 0;
+}

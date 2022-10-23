@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 1200px;
+}
+/* menu số 1 */
+header {
+  width: 1450px;
+  height: 40px;
+  background-color: #f8f9fa;
+}
+.menu1 {
+  margin-left: 640px;
+}
+.menu1 ul li {
+  float: left;
+  list-style: none;
+  border-right: 1px solid blue;
+}
+.menu1 ul li:hover {
+  background-color: bisque;
+}
+.noboder {
+  border: none;
+}
+.menu1 ul li a {
+  font-weight: bold;
+  line-height: 40px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #186bcc;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* Phần tìm kiếm */
+.listsearch {
+  padding-right: 100px;
+}
+.text {
+  height: 40px;
+  width: 120px;
+  border: none;
+}
+.search {
+  color: white;
+  border: none;
+  background-color: #f8f9fa;
+}
+/* phần banner */
+nav {
+  margin-left: 270px;
+  border-top: 2px solid #e7e7e7;
+  border-bottom: 2px solid #e7e7e7;
+}
+/* menu số 2 */
+.menu2 {
+  width: 1228px;
+  height: 80px;
+  background-color: #186bcc;
+  padding-left: 245px;
+}
+.menu2 ul li {
+  list-style: none;
+  float: left;
+  padding-top: 13px;
+}
+.menu2 ul li a {
+  margin-left: 70px;
+  font-size: 12px;
+  text-decoration: none;
+  color: azure;
+  font-weight: bold;
+}
+.menu2 ul li a:hover {
+  text-decoration: underline;
+}
+/* Phần chuc hay */
+.chuchay {
+  margin-top: 7px;
+}
+.chuchay marquee {
+  color: #186bcc;
+  font-weight: bold;
+  font-size: 13px;
+}
+/* Thân trang web */
+.container {
+  margin-left: 270px;
+  width: 1000px;
+  margin-top: 10px;
+}
+article {
+  min-height: 1200px;
+  width: 70%;
+  float: left;
+  margin-bottom: 50px;
+}
+aside {
+  min-height: 600px;
+  width: 30%;
+  float: left;
+}
+/* phần bản tin */
+.col {
+  width: 48%;
+  float: left;
+  border: 1px solid #186bcc;
+  margin-left: 10px;
+  background-color: #186bcc;
+}
+.col h4 {
+  background: url(images/loa1.png) no-repeat 20px;
+  padding-top: 13px;
+  margin-right: 100px;
+  margin-top: 15px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 8px 8px 0 0;
+}
+.col p {
+  padding-top: 16px;
+  background-color: white;
+}
+.col a {
+  text-decoration: none;
+}
+.col a:hover {
+  text-decoration: underline;
+}
+/* bản tin số 2 */
+article h3 {
+  text-align: left;
+  color: #186bcc;
+  margin-bottom: 9px;
+}
+article h5 {
+  text-align: left;
+}
+article p {
+  text-align: left;
+  margin-bottom: 8px;
+}
+.trac {
+  text-align: left;
+  margin-top: 24px;
+}
+.trac h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.hoten{
+  height: 25px;
+  width: 300px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  margin-left: 19px;
+}
+.diachi{
+  height: 25px;
+  width: 300px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  margin-left: 39px;
+}
+.dienthoai{
+  height: 25px;
+  width: 300px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  margin-left: 61px;
+}
+.thudientu{
+  height: 25px;
+  width: 300px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+}
+/* phần bản tin */
+.listn1 {
+  border: 1px solid gray;
+}
+.listn1 h4 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #186bcc;
+}
+.listn1 h4 a {
+  text-decoration: none;
+  color: white;
+}
+.listn1 h5 {
+  padding-top: 15px;
+  border: 1px solid #186bcc;
+  padding-bottom: 15px;
+}
+.listn1 h5:hover {
+  background-color: bisque;
+  font-size: 15px;
+  text-decoration: underline;
+}
+.listn1 h5 a {
+  text-decoration: none;
+  margin: 4px 4px;
+}
+/* Phần lịch công tác */
+.listn2 {
+  margin-top: 30px;
+}
+.nt1 {
+  padding: 7px 0;
+  background-color: #186bcc;
+  margin-bottom: 8px;
+  width: 180px;
+  font-size: 13px;
+  color: #f8f9fa;
+}
+.nt2 h3 {
+  padding: 10px;
+  border: 1px solid #a3b0be;
+}
+.nt2 a {
+  text-decoration: none;
+}
+.nt2 a:hover {
+  text-decoration: underline;
+  color: coral;
+}
+.listn3 {
+  margin-top: 30px;
+}
+/* Phần cuối */
+footer {
+  text-align: center;
+  clear: both;
+  background-color: #dfdfdf;
+}
+footer h3 {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+footer p {
+  margin-bottom: 10px;
+}

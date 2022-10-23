@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+    font-family: tahoma;
+}
+header img{
+    width: 100%;
+}
+.menu{
+    height: 50px;
+    background-color: coral;
+    padding-left: 480px;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.menu a:hover{
+    color: yellow;
+}
+section{
+    width: 75%;
+    min-height: 600px;
+    float: left;
+}
+article{
+    width: 25%;
+    min-height: 600px;
+    background-color: bisque;
+    float: left;
+}
+article ul li{
+    list-style: none;
+}
+footer{
+    height: 50px;
+    background-color: lightcyan;
+    clear: both;
+    border-top:5px double orangered;
+    font-variant:small-caps;
+}
+footer p{
+    padding-top: 15px;
+}

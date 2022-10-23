@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 980px;
+    margin: 0 auto;
+    font-family: tahoma;
+}
+.logo{
+    height: 100px;
+    background-color: #f95412;
+    text-align: center;
+    padding-top: 15px;
+}
+.listmenu{
+    height: 40px;
+    background-color: #ffba6c;
+    margin-bottom: 5px;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    padding-left: 22px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.search{
+    float: right;
+    line-height: 40px;
+    padding-right: 10px;
+}
+section h3{
+    margin: 15px 0;
+}
+.phan1{
+    width: 68%;
+    float: left;
+    border: 1px solid #f95412;
+    margin-right: 10px;
+}
+.phan2{
+    width: 29%;
+    float: left;
+    border: 1px solid #f95412;
+    margin-left: 15px;
+    height: 348px;
+}
+.phan1 img{
+    float: left;
+    margin: 10px 10px;
+}
+.phan1 h4 a{
+    text-decoration: none;
+    color: #f95412;
+    padding-top: 60px;
+}
+.phan1 p a{
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 13px;
+}
+.phan2 img{
+    float: left;
+    margin: 10px 10px;
+}
+.phan2 h4 a{
+    text-decoration: none;
+    color: #f95412;
+}
+.phan2 p a{
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 13px;
+}
+.listnew1{
+    margin-bottom: 100px;
+}
+.col{
+    margin-top: 10px;
+}
+footer{
+    height: 70px;
+    background-color: #f95412;
+    margin-top: 100px;
+    clear: both;
+}
+.sv{
+    margin-top: 10px;
+    margin-left: 10px;
+}

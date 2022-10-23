@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 980px;
+    margin: 0 auto;
+    font-family: tahoma;
+}
+header .logo{
+    text-align: center;
+    margin: 20px 0;
+}
+header .menu{
+    height: 35px;
+    background-color: #272f54;
+}
+header .menu ul{
+    list-style: none;
+}
+header .menu ul li{
+    float: left;
+    line-height: 35px;
+}
+header .menu ul li a{
+    color:#fefbfb;
+    text-decoration: none;
+    margin: 0 23px;
+    font-size: 12px;
+}
+header .menu ul li a:hover{
+    text-decoration: underline;
+}
+header .search{
+    float: right;
+    line-height: 35px;
+    margin-right: 35px;
+}
+.text{
+    width: 200px;
+    height: 20px;
+    border: 1px solid #cccccc;
+    padding-left: 5px;
+}
+.button{
+    width: 90px;
+    height: 23px;
+    border: 2px solid #cccccc;
+    background-color: #db2704;
+    color:#fefbfb;
+    margin-left: 8px;
+}
+section .newlist h2{
+    color:#272f54;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+section .row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+section .col{
+    border: 1px solid #c2c2c2;
+    padding: 20px 35px;
+    text-align: center;
+}
+section .col h3 a{
+    color: #2a2828;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+section .col h5{
+    font-size: 16px;
+    margin-top: 25px;
+    text-decoration: line-through;
+}
+section .col h2 a{
+    font-size: 24px;
+    color: #c1080f;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+footer{
+    height: 50px;
+    color: #272f54;
+}
+section img{
+    margin-top: 20px;
+}
+footer{
+    height: 50px;
+    background-color: #272f54;
+    margin-top: 8px;
+}
+footer h2{
+    color: azure;
+    text-align: center;
+    line-height: 50px;
+}

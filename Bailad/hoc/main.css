@@ -1,0 +1,21 @@
+.box{
+    width: 800px;
+    height: 200px;
+    border: 2px solid red;
+    margin: 10px;
+}
+.box2{
+    width: 800px;
+    height: 200px;
+    border: 2px solid red;
+    margin: 10px;
+    background-color: aquamarine;
+}
+.box2 img{
+    padding-left: 20px;
+    border-radius: 100px 0 700px 0;
+    box-shadow: 10px -10px 8px blackr;
+}
+.box p{
+    margin-left: 10px;
+}

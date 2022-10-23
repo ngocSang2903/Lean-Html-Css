@@ -1,0 +1,16 @@
+.column{
+    width: 25%;
+    float: left;
+}
+.sanpham p{
+    color: red;
+}
+.sanpham span{
+    text-decoration: line-through;
+    color: gray;
+}
+.sanpham h3{
+    color: blue;
+    font-variant: small-caps;
+    font-size: larger;
+}
